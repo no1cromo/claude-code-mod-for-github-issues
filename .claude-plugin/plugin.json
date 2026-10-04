@@ -1,0 +1,11 @@
+{
+  "name": "repo-issues",
+  "version": "0.1.0",
+  "description": "A pane counting this repo's open GitHub issues, coloured by issue type and by who they are assigned to",
+  "author": { "name": "no1cromo", "url": "https://github.com/no1cromo" },
+  "homepage": "https://github.com/no1cromo/claude-code-mod-for-github-issues",
+  "repository": "https://github.com/no1cromo/claude-code-mod-for-github-issues",
+  "license": "MIT",
+  "keywords": ["github", "issues", "pane"],
+  "types": "./types/index.d.ts"
+}

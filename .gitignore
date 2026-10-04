@@ -1,0 +1,3 @@
+# Written by Claude Code each time it loads the mod: its plugin API types for this build
+.claude-plugin/types/
+.DS_Store

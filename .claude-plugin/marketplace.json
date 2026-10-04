@@ -1,0 +1,15 @@
+{
+  "name": "repo-issues",
+  "owner": {
+    "name": "no1cromo",
+    "url": "https://github.com/no1cromo"
+  },
+  "description": "Claude Code mod: a live pane of a repo's open GitHub issues by type and by person",
+  "plugins": [
+    {
+      "name": "repo-issues",
+      "source": "./",
+      "description": "A pane counting this repo's open GitHub issues, coloured by issue type and by who they are assigned to"
+    }
+  ]
+}
