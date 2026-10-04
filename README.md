@@ -38,11 +38,32 @@ each person gets a colour of their own, and their bar is split by issue type.
 
 ## Install
 
-From inside Claude Code:
+Inside Claude Code, run these **one at a time** (paste one, press Enter, then
+the next; pasted together they arrive as a single command):
+
+1. Add this repo as a plugin source:
+
+   ```
+   /plugin marketplace add https://github.com/no1cromo/claude-code-mod-for-github-issues
+   ```
+
+2. Install the mod from it:
+
+   ```
+   /plugin install repo-issues@repo-issues
+   ```
+
+3. Type `/issues`. If Claude Code does not know it yet, run `/reload-plugins`
+   or start a new session.
+
+If step 2 says `Plugin "repo-issues" not found in marketplace "repo-issues"`,
+step 1 has not run yet.
+
+The same two steps from a terminal, outside Claude Code:
 
 ```
-/plugin marketplace add no1cromo/claude-code-mod-for-github-issues
-/plugin install repo-issues@repo-issues
+claude plugin marketplace add https://github.com/no1cromo/claude-code-mod-for-github-issues
+claude plugin install repo-issues@repo-issues
 ```
 
 Or from a clone, for one session:
